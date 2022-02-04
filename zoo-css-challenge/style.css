@@ -211,7 +211,6 @@ font-size: 20px;
 .membership {
   text-align: center;
   background-color: #fffffc;
-
 }
 
 .membership h2 {
@@ -231,4 +230,24 @@ font-size: 20px;
   width: 25%;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.Lion{
+  background-color: #f1c5b2;
+}
+
+.Lion h2{
+  color:#68260a;
+  text-align: center;
+
+}
+
+.Lion p{
+  color: #381303;
+}
+
+.imagen-lion{
+  border: 3px solid rgb(150, 94, 11); 
+  display: inline-block;
+  margin-left: 160px;
 }
