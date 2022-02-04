@@ -187,10 +187,18 @@ background-color: #483c46;
   padding: 100px 5%;
 }
 
+button:hover, button:focus{
+background-color: #b64483;
+font-size: 20px;
+}
+
+
+
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 25px ;
 }
 
 .education-container h3,
