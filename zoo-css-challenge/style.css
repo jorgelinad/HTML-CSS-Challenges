@@ -172,6 +172,10 @@ background-color: #483c46;
   margin-bottom: 10px;
 }
 
+.news h2{
+  text-align: center;
+}
+
 /*Education*/
 
 .education {
