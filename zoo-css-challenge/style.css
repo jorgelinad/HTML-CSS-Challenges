@@ -150,9 +150,9 @@ background-color: #483c46;
 .card {
   display: inline-block;
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   margin: 10px;
-  width: 30%;
+  width: 25%;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -211,6 +211,7 @@ font-size: 20px;
 .membership {
   text-align: center;
   background-color: #fffffc;
+
 }
 
 .membership h2 {
@@ -224,5 +225,11 @@ font-size: 20px;
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block ;
+  padding: 15px;
+  margin: 10px;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 10px;
+
 }
