@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
+  line-height: 25px;
 }
+
 
 header {
   background-color: #211a1d;
@@ -30,15 +32,19 @@ section {
 }
 
 img {
-
+border: 5px solid #6320ee;
+}
+#logo{
+  border: none;
 }
 
-h2,
-h3{
-  color:#A2D5E2 ;
+.tigers h2{
+  color: #A2D5E2 ;
 }
 
 h1,
+h2,
+h3,
 h4,
 h5 {
   /*Purple*/
@@ -66,7 +72,9 @@ button {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #372772;
   border: 2px solid black;
-  color: #fff;
+  font-size: 20px;
+  color: #fff; 
+
 }
 
 footer {
@@ -85,7 +93,7 @@ footer {
 #badge {
   height: 120px;
   width: 120px;
-  background-color: #bbb;
+  background-color: rgb(187, 187, 187);
   border-radius: 50%;
   display: inline-block;
   position: fixed;
@@ -96,10 +104,11 @@ footer {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  transition: all 2s ease;
 }
 
 #badge:hover {
-  background-color: rgb(243, 197, 229);
+  background-color: rgb(245, 90, 185);
 }
 
 #badge p {
@@ -117,15 +126,15 @@ footer {
 }
 
 .image-container img:nth-of-type(3){
-  border: solid rgb(241, 161, 161);
+  border: 5px solid rgb(241, 161, 161);
 }
 
-.image-container img:first-of-type {
+/*.image-container img:first-of-type {
   vertical-align: bottom;
-}
+}*/
 
 .tigers {
-  background-color: #0b3c49;
+  background-color: #305e6b;
   color: #f0e100;
 }
 
@@ -144,7 +153,10 @@ background-color: #483c46;
 
 .giraffe p {
   color: #beee62;
-  font-size: 18px;
+}
+
+.giraffe p:first-of-type{
+  font-size: 18px
 }
 
 .card {
@@ -156,6 +168,7 @@ background-color: #483c46;
   border: 1px solid black;
   border-radius: 10px;
 }
+
 
 .card h4 {
   margin-bottom: 1em;
@@ -187,9 +200,8 @@ background-color: #483c46;
   padding: 100px 5%;
 }
 
-button:hover, button:focus{
+button:hover{
 background-color: #b64483;
-font-size: 20px;
 }
 
 
@@ -223,18 +235,21 @@ font-size: 20px;
 
 .membership p{
   width: 700px;
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Programs*/
 
 .programs .card {
   display: inline-block ;
-  padding: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin: 10px;
-  width: 25%;
+  width: 30%;
   border: 1px solid black;
   border-radius: 10px;
+  vertical-align: top;
 }
 
 .Lion{
@@ -251,8 +266,10 @@ font-size: 20px;
   color: #381303;
 }
 
-.imagen-lion{
+.imagen-lion img{
   border: 3px solid rgb(150, 94, 11); 
   display: inline-block;
-  margin-left: 160px;
+  margin-right: 450px;
+  margin-left: 450px;
+  border-radius: 25px;
 }
